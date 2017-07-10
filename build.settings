@@ -1,0 +1,27 @@
+
+settings =
+ {
+	
+	orientation =
+	{
+		default = "portrait",--sets orientation when the app is launched it can landscapeRight , landscapeLeft , or portrait
+		supported = { "portrait", "portraitUpsideDown" } --sets what orientation the app can support.
+	},
+	
+	 androidPermissions =
+	 {
+	 	"android.permission.INTERNET",-- gives the app the permission to access the internet
+	 	"android.permission.READ_EXTERNAL_STORAGE",
+	 	"android.permission.WRITE_EXTERNAL_STORAGE",
+	 	
+	 },
+	
+	iphone =
+	{
+			plist=
+		{
+			--UIStatusBarHidden=true,
+		},
+		
+	},
+}
